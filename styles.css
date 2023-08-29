@@ -6,6 +6,7 @@ body{
     font-family: sans-serif;
     box-sizing: border-box;
     margin: 0;
+    background-color: var(--back_color);
 }
 header{
     height: 80px;
@@ -75,4 +76,17 @@ header *{
 }
 #feature{
     text-align: center;
+}
+#round{
+    height: 350px;
+    background-image: url("images/pic2.png");
+    background-size: cover;
+    background-position: center;
+}
+#para{
+    text-align: center;
+    padding: 22px;
+}
+#para *{
+    margin: 20px 10px;
 }
