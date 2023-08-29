@@ -2,11 +2,46 @@
     --main_color: hsl(226, 90%, 58%);
     --back_color: hsl(227, 82%, 96%);
 }
+@font-face {
+    font-family: Austin;
+    src: url(fonts/Austin.ttf);
+}
+@font-face {
+    font-family: Faustina;
+    src: url(fonts/Faustina-Regular.ttf);
+}
+@font-face {
+    font-family: Forbes;
+    src: url(fonts/Forbes-Regular.ttf);
+}
+  
 body{
     font-family: sans-serif;
     box-sizing: border-box;
     margin: 0;
     background-color: var(--back_color);
+}
+#mint{
+    font-family: Austin,sans-serif;
+    color: var(--main_color);
+    font-size: 25px;
+    font-weight: bolder;
+}
+#eco{
+    font-family: Faustina,sans-serif;
+    color: var(--main_color);
+    font-size: 20px;
+}
+#forbes{
+    font-family: Forbes,sans-serif;
+    color: var(--main_color);
+    font-size: 23px;
+    font-weight: lighter;
+}
+#times{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--main_color);
+    font-size: 23px;
 }
 header{
     height: 80px;
@@ -234,4 +269,7 @@ li::before{
 }
 hr{
     width: 90%;
+}
+
+@media screen and (min-width: 650px){ 
 }
