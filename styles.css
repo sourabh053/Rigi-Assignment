@@ -445,6 +445,11 @@ hr{
         display: flex;
         justify-content: space-evenly;
     }
+    #foot{
+        display: flex;
+        justify-content:
+        center; gap: 2rem;
+    }
 }
 @media screen and (min-width: 1100px){
     .test2{
