@@ -105,7 +105,9 @@ header *{
     width: 100%;
     height: 440px;
     background-image: url("images/pic1.png") ;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: -3px;
 }
 .basebtn{
     width: 100%;
