@@ -2,6 +2,9 @@
     --main_color: hsl(226, 90%, 58%);
     --back_color: hsl(227, 82%, 96%);
 }
+p{
+    line-height: 1.6;
+}
 @font-face {
     font-family: Austin;
     src: url(fonts/Austin.ttf);
