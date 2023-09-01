@@ -20,3 +20,13 @@ function myFunction(x) {
     evt.currentTarget.classList.remove("wblue");
     evt.currentTarget.className += " wred";
   }
+
+  window.addEventListener("keypress", function (e) {
+    let key = e.key;
+    if (key == "b" || key == "B") {
+      window.scrollTo(0, document.body.scrollHeight);
+    } else if (key == "t" || key == "T") {
+      window.scrollTo(0,0);
+      console.log("key pressed", key);
+    }
+  })
